@@ -53,6 +53,12 @@ nav a:hover{
 .flex-container .col{
     width: 430px;
 }
+.div01 {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
 .produto{
     width: 235px;
 }
