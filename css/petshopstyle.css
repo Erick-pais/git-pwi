@@ -40,6 +40,7 @@ nav a:hover{
 
 .fundo-verde{
     background-color: #bdff9c 
+
 }   
 .container{
     width: 900px;
@@ -48,17 +49,20 @@ nav a:hover{
 }
 .flex-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
+    
+
+    
 }
 .flex-container .col{
     width: 430px;
 }
-.div01 {
+/* .div01 {
     width: 60%;
     margin: 0 auto;
     display: flex;
     align-items: center;
-}
+} */
 .produto{
     width: 235px;
 }
@@ -70,6 +74,7 @@ nav a:hover{
     text-align: center;
     height: 160px;
     line-height: 160px;
+    width: 50;
 }
 .produto figure img {
     vertical-align: middle;
@@ -88,3 +93,16 @@ nav a:hover{
     display: inline-block;
     padding: 10px 20px;
     }
+.produto_2{
+   justify-content: space-between;
+}
+.produto1{
+    justify-content: space-between;
+    width: 560px;
+    padding: auto;
+
+
+}
+    /* .col h2{
+        padding-top: 56px;
+     */
