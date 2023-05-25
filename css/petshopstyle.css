@@ -144,6 +144,9 @@ h2 {
 #contato .flex-container {
     margin-top: 43px;
 }
+.button{
+    
+}
 
 :root {
     --color-neutral-0: #0e0c0c;
@@ -166,7 +169,7 @@ main {
 }
 
 footer {
-    width: 100%;
+    width:100%;
     color: var(--color-neutral-40);
 }
 
