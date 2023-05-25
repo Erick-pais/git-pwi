@@ -108,6 +108,7 @@ nav a:hover {
 
 .produto_2 {
     justify-content: space-between;
+    padding: auto;
 }
 
 .produto1 {
@@ -143,6 +144,7 @@ h2 {
 #produto .flex-container,
 #contato .flex-container {
     margin-top: 43px;
+    
 }
 .button{
     
@@ -180,7 +182,7 @@ footer {
 #footer_content {
     background-color: var(--color-neutral-10);
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 3rem 3.5rem;
 }
 
@@ -265,7 +267,7 @@ footer {
 }
 
 #input_group button {
-    background-color: #7f37c9;
+    background-color: #82ce5c;
     border: none;
     color: var(--color-neutral-40);
     padding: 0px 1.25rem;
@@ -301,4 +303,7 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
     }
+}
+.footer{
+    background-color: #171717;
 }
