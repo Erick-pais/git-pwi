@@ -56,8 +56,11 @@ nav a:hover {
     margin: 0 auto;
     padding: 56px 0;
 }
-
-.flex-container {
+.t{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-container   {
     display: flex;
     justify-content: space-between
 }
@@ -72,9 +75,10 @@ nav a:hover {
     display: flex;
     align-items: center;
 } */
-.produto {
-    width: 235px;
-}
+/* .produto1{
+    width: 23px;
+} */
+
 
 .produto figure {
     border: 1px solid #c4c4c4;
@@ -85,11 +89,14 @@ nav a:hover {
     height: 160px;
     line-height: 160px;
     width: 50;
+    justify-content: space-between;
 }
 
 .produto figure img {
-    vertical-align: middle;
+     vertical-align: middle; 
+    
 }
+
 
 .texto-centralizado {
     text-align: center;
@@ -108,13 +115,15 @@ nav a:hover {
 
 .produto_2 {
     justify-content: space-between;
-    padding: auto;
+ padding: auto;
+
 }
 
 .produto1 {
     justify-content: space-between;
-    width: 560px;
-    padding: auto;
+    width: 300px;
+    /* padding: auto; */
+    align-items: center;
 
 
 }
@@ -144,10 +153,10 @@ h2 {
 #produto .flex-container,
 #contato .flex-container {
     margin-top: 43px;
-    
+
 }
 .button{
-    
+
 }
 
 :root {
@@ -295,37 +304,57 @@ footer {
     /* #footer_content {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
-    }
+   ain }
 } */
 
 
 .footer{
     background-color: #171717;
-} 
+}
 @media(max-width:580px){
-    .flex-container{
+   .flex-container{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         margin: 10vw 10vw;
        }
-     
-   
+
+div .col{
     
-    #produto_2{
-        display: flex;
+    display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         margin: 10vw 10vw;
-        
-        
+}
+
+    /* #produto_2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 30px;
+        background-color: #4267b3;
+
+        /* flex-direction: column; */
+        /* margin: 10vw 10vw; */
+ */
+
     }
+    .container{
+        max-width: 580px;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+   
     .t{
+        display: flex;
+        flex-wrap: wrap;
         align-items: center;
        margin-left: 18vw;
+       
     }
     .produto1{
-        margin-top: 10vw;
-        
+        margin-top: 5vw;
+
     }
     #contato{
         display: flex;
@@ -345,18 +374,18 @@ footer {
     }
     #footer_subscribe{
         max-width: 500px;
-        
-        
+
+
     }
     .fundo-verde{
         width: 1000px;
     }
-    footer 
+    footer
     {
-     background-color: #171717;   
+     background-color: #171717;
      min-width: 680px;
      /* width: 100px; */
-     
+
     }
     #footer_copyright{
         min-width: 680px ;
@@ -365,11 +394,11 @@ footer {
     header{
         min-width: 620px;
     }
-        
-    
 
-   
-    
+
+
+
+
 }
-    
+
 
