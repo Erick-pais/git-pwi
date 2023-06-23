@@ -49,18 +49,23 @@ nav a:hover {
 }
 
 .fundo-verde {
-    background-color: #bdff9c
+    background-color: #bdff9c;
+    width: 100%;
+    
 }
 
 .container {
-    width: 900px;
+    width: 80%;
     margin: 0 auto;
     padding: 56px 0;
+
+
 }
 
 .flex-container {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    
 }
 
 .flex-container .col {
@@ -312,16 +317,16 @@ footer {
 .footer{
     background-color: #171717;
 }
-@media(max-width: 580px){
+@media(max-width: 880px){
     .container{
         flex-direction: column;
-        max-width: 580px;
+        max-width: 100%;
         margin-top: 20px;
         padding-top: 20px;
         
         justify-content: center;
         flex-wrap: wrap;
-        padding: 0 56px;
+        padding-left: 0px;
         
     }
     .flex-container{
@@ -338,15 +343,15 @@ footer {
     #produto_2{
         display: flex;
         flex-direction: column;
-        flex-direction: row;
-        padding: 0 56px;
+        /* flex-direction: row; */
+        /* padding: 0 56px; */
 
         
     }
     .produto1{
         align-items: center;
         justify-content: center;
-        width: 142px;
+        width: 100%;
         height: 142px;
         margin-top: 20px;
         margin-bottom: 130px;
@@ -354,8 +359,37 @@ footer {
     div{
         margin-top: 50px;
     }
-    /* article{
-        width: 142px;
-        height: 142px;
-    } */
+    .col{
+        align-items: center;
+        justify-content: left;
+        margin-left: 0px;
+    }
+    ul{
+        display: flex; 
+        flex-direction: column;
+     }
+     #itemContato{
+         
+         display: inline;
+     background-image: url(../img/patinha-preta.png);
+     background-repeat: no-repeat;
+     padding-right: 27px;
+     margin-right: 10px;
+     background-position: 35% 50%;
+     }
+     nav li{
+         background-position: left;
+         transition: transform .2s;
+         padding: auto;
+         background-position: 35% 50%;
+     }
+     nav li:hover{
+         transform: scale(1.5);
+     }
+     .produto1{
+        justify-content: center;
+        align-items: center;
+        margin-left: 80%;
+     }
+
 }
